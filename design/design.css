@@ -1,0 +1,62 @@
+/** @format */
+
+@font-face {
+	font-family: Outfit-Black;
+	src: url(fonts/Outfit-Black.ttf);
+}
+@font-face {
+	font-family: Outfit-Light;
+	src: url(fonts/Outfit-Light.ttf);
+}
+
+body {
+	background-color: #d6e2f0;
+	padding-top: 148.5px;
+}
+
+section#main {
+	border-radius: 5%;
+	background-color: #ffffff;
+	width: 170px;
+	height: 280px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+div#image-container {
+	border-radius: inherit;
+	width: 170px;
+	margin: auto;
+}
+div#image-container img {
+	border-radius: inherit;
+	width: 100%;
+	height: auto;
+}
+/*
+h1,
+p {
+	width: 80%;
+} */
+
+h1 {
+	font-family: Outfit-Black;
+	font-size: small;
+}
+
+p {
+	color: #7b879d;
+	font-family: Outfit-Light;
+	font-size: xx-small;
+	font-weight: lighter;
+}
+
+footer#attribution {
+	font-size: 11px;
+	text-align: center;
+}
+#attribution a {
+	color: hsl(228, 45%, 44%);
+}
